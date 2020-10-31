@@ -1,0 +1,51 @@
+/* Helper function */
+.unselectable {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+body {
+/* sexy bg */
+background: #333;
+margin: 0;
+overflow: hidden;
+}
+
+.centerbox {
+/* positioninig */
+position: absolute;
+top: 0; bottom: 0;
+left: 0; right: 0;
+/* basic styling */
+width: 100%;
+font-size: 14px;
+margin: 0; padding: 0;
+
+/* flexbox, por favor */
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+-webkit-box-pack: center;
+-webkit-box-align: center;
+
+display: -moz-box;
+-moz-box-orient: horizontal;
+-moz-box-pack: center;
+-moz-box-align: center;
+
+display: box;
+box-orient: horizontal;
+box-pack: center;
+box-align: center;
+
+}
+
+
+#site-title {
+    font-family: 'Rationale', sans-serif;
+    padding: 0 13px; font-size: 52px; line-height: 62px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.42)
+}
